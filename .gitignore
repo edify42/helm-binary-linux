@@ -1,0 +1,5 @@
+helm-binary-*.tgz
+node_modules
+.npmrc
+bin
+yarn-error.log
