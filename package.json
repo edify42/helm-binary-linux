@@ -1,6 +1,6 @@
 {
   "name": "helm-binary-linux",
-  "version": "3.2.4",
+  "version": "3.6.2",
   "description": "install helm binary to you node_modules",
   "bin": {
     "helm": "bin/helm"
@@ -15,15 +15,17 @@
     "make": ".ci/get-helm.sh latest",
     "publish": "yarn publish"
   },
-  "os" : [ "linux" ],
+  "os": [
+    "linux"
+  ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/edify42/helm-binary-linux"
+    "type": "git",
+    "url": "https://github.com/edify42/helm-binary-linux"
   },
   "author": "ekim8015@gmail.com",
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "markdownlint-cli": "^0.23.2"
+    "markdownlint-cli": "^0.27.1"
   }
 }
